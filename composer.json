@@ -1,0 +1,14 @@
+{
+    "name": "vallefor/23g",
+    "type": "css-grid",
+    "description": "23g grid system",
+    "keywords": ["log","css"],
+    "authors": [
+        {
+            "name": "Dmitry Lipivtsev",
+            "email": "madsorcerer@gmail.com",
+            "homepage": "http://myanimeshelf.com/shelf/Vallefor",
+            "role": "Developer"
+        }
+    ]
+}
