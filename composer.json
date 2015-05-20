@@ -2,7 +2,7 @@
     "name": "upriver/23g",
     "type": "css-grid",
     "description": "23g grid system",
-    "keywords": ["log","css"],
+    "keywords": ["css","grid"],
     "authors": [
         {
             "name": "Dmitry Lipivtsev",

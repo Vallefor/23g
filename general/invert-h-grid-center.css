@@ -1,3 +1,7 @@
+.invert-h-fl { float: left; }
+.invert-h-fr { float: left; }
+.invert-h-fn { float: none; }
+
 .invert-h-cb { clear:both; }
 .invert-h-dn { display: none; }
 
