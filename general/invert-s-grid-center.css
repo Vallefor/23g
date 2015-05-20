@@ -1,3 +1,7 @@
+.invert-s-tal { text-align: left; }
+.invert-s-tar { text-align: right; }
+.invert-s-tac { text-align: center; }
+
 .invert-s-fl { float: left; }
 .invert-s-fr { float: right; }
 .invert-s-fn { float: none; }

@@ -1,3 +1,7 @@
+.invert-m-tal { text-align: left; }
+.invert-m-tar { text-align: right; }
+.invert-m-tac { text-align: center; }
+
 .invert-m-fl { float: left; }
 .invert-m-fr { float: right; }
 .invert-m-fn { float: none; }
