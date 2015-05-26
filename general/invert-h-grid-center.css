@@ -3,7 +3,7 @@
 .invert-h-tac { text-align: center; }
 
 .invert-h-fl { float: left; }
-.invert-h-fr { float: left; }
+.invert-h-fr { float: right; }
 .invert-h-fn { float: none; }
 
 .invert-h-cb { clear:both; }
