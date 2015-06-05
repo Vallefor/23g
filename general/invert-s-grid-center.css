@@ -24,6 +24,19 @@
 .invert-s-fs60 { font-size: 60px; line-height: 1.2em; }
 .invert-s-fs65 { font-size: 65px; line-height: 1.2em; }
 
+/* clear */
+.invert-s-clear-marg-i { margin:0 !important; }
+.invert-s-clear-mright-i { margin-right:0 !important; }
+.invert-s-clear-mtop-i { margin-top:0 !important; }
+.invert-s-clear-mleft-i { margin-left:0 !important; }
+.invert-s-clear-mbottom-i { margin-bottom:0 !important; }
+
+.invert-s-clear-padd-i { padding:0 !important; }
+.invert-s-clear-pright-i { padding-right:0 !important; }
+.invert-s-clear-ptop-i { padding-top:0 !important; }
+.invert-s-clear-pleft-i { padding-left:0 !important; }
+.invert-s-clear-pbottom-i { padding-bottom:0 !important; }
+
 
 
 .invert-s-tal { text-align: left; }
