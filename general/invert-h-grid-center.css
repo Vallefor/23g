@@ -1,3 +1,30 @@
+/* font */
+.invert-h-fs10 { font-size: 10px; line-height: 1.2em; }
+.invert-h-fs11 { font-size: 11px; line-height: 1.2em; }
+.invert-h-fs12 { font-size: 12px; line-height: 1.4em; }
+.invert-h-fs13 { font-size: 13px; line-height: 1.2em; }
+.invert-h-fs14 { font-size: 14px; line-height: 1.2em; }
+.invert-h-fs15 { font-size: 15px; line-height: 1.2em; }
+.invert-h-fs16 { font-size: 16px; line-height: 1.2em; }
+.invert-h-fs17 { font-size: 17px; line-height: 1.2em; }
+.invert-h-fs18 { font-size: 18px; line-height: 1.2em; }
+.invert-h-fs19 { font-size: 19px; line-height: 1.2em; }
+.invert-h-fs20 { font-size: 20px; line-height: 1.2em; }
+.invert-h-fs21 { font-size: 21px; line-height: 1.2em; }
+.invert-h-fs22 { font-size: 22px; line-height: 1.2em; }
+.invert-h-fs23 { font-size: 23px; line-height: 1.2em; }
+.invert-h-fs24 { font-size: 24px; line-height: 1.2em; }
+.invert-h-fs26 { font-size: 24px; line-height: 1.2em; }
+.invert-h-fs30 { font-size: 30px; line-height: 1.2em; }
+.invert-h-fs35 { font-size: 35px; line-height: 1.2em; }
+.invert-h-fs40 { font-size: 40px; line-height: 1.2em; }
+.invert-h-fs45 { font-size: 45px; line-height: 1.2em; }
+.invert-h-fs50 { font-size: 50px; line-height: 1.2em; }
+.invert-h-fs55 { font-size: 55px; line-height: 1.2em; }
+.invert-h-fs60 { font-size: 60px; line-height: 1.2em; }
+.invert-h-fs65 { font-size: 65px; line-height: 1.2em; }
+
+
 .invert-h-tal { text-align: left; }
 .invert-h-tar { text-align: right; }
 .invert-h-tac { text-align: center; }
