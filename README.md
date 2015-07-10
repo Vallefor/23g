@@ -70,6 +70,60 @@ clear:both; - сработает только при разрешении экр
 
 # Набор готовых решений
 
+## отзывчивое решение для 6-ти одинаковых колонок
+```html
+<div class="first">
+    <div class="second">
+        <div class="third">
+            <div class="column s-width-11 s-push-0 m-width-7 h-width-3"> 1 </div>
+            <div class="column s-width-11 s-push-12 m-width-7 m-push-8 h-width-3 h-push-4"> 2 </div>
+            <div class="invert-s-cb"></div>
+            <div class="column s-width-11 s-push-0 m-width-7 m-push-16 h-push-3 h-push-8"> 3 </div>
+            <div class="invert-s-cb invert-m-cb"></div>
+            <div class="column s-width-11 s-push-12 m-width-7 h-width-3 h-push-12"> 4 </div>
+            <div class="invert-s-cb"></div>
+            <div class="column s-width-11 s-push-0 m-width-7 m-push-8 h-width-3 h-push-16"> 5 </div>
+            <div class="column s-width-11 s-push-12 m-width-7 m-push-16 h-width-3 h-push-20"> 6 </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+```
+
+## отзывчивое решение для 4-х одинаковых колонок
+```html
+<div class="first">
+    <div class="second">
+        <div class="third">
+            <div class="column s-width-23 s-push-0 m-width-11 h-width-5"></div>
+            <div class="invert-s-cb"></div>
+            <div class="column s-width-23 s-push-0 m-width-11 m-push-12 h-width-5 h-push-6"></div>
+            <div class="invert-s-cb invert-m-cb"></div>
+            <div class="column s-width-23 s-push-0 m-width-11 h-width-5 h-push-12"></div>
+            <div class="invert-s-cb invert-m-cb"></div>
+            <div class="column s-width-23 s-push-0 m-width-11 m-push-12 h-width-5 h-push-18"></div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+```
+
+## отзывчивое решение для 3-х одинаковых колонок
+```html
+<div class="first">
+    <div class="second">
+        <div class="third">
+            <div class="column s-width-23 s-push-0 m-width-11 h-width-7"></div>
+            <div class="invert-s-cb"></div>
+            <div class="column s-width-23 s-push-0 m-width-11 m-push-12 h-width-7 h-push-8"></div>
+            <div class="invert-s-cb invert-m-cb"></div>
+            <div class="column s-width-23 s-push-0 m-width-11 m-push-6 h-width-7 h-push-16"></div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+```
+
 ## Фон на несколько колонок
 ```html
 <div class="first">
