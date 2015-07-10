@@ -10,6 +10,7 @@
     <div class="second">
         <div class="third">
             <!-- место для колонок -->
+            <div class="cb"></div>
         </div>
     </div>
 </div>
@@ -19,6 +20,13 @@
 ```html
     <div class="column"></div>
 ```
+
+Перед закрывающимся *.third* обязательно нужно исполькловать *clear:both;* Это связано с тем, что все колонки имеют свойство *float: left;* 
+
+Список микро-классов можно посмотреть тут:
+https://github.com/Vallefor/css-framework/blob/master/css/framework.css
+
+
 
 ## Префиксы
 
@@ -42,7 +50,7 @@ h - high - большой экран (экран десктоп компьюте
 Запрещается давать колонке дополнительные паддинги или марджины любыми средствами - это собьет сетку, если нужны дополнительные отступы - используйте внутренний div:
 ```html
     <div class="column s-width-23">
-        <div style="margin:20"></div>
+        <div style="margin:20px;"></div>
     </div>
 ```
 
@@ -58,3 +66,24 @@ invert-префиксы можно комбинировать
     <div class="invert-m-cb invert-s-cb"></div>
 ```
 clear:both; - сработает только при разрешении экрана - medium и small.
+
+
+# Набор готовых решений
+
+## Фон на несколько колонок
+```html
+<div class="first">
+    <div class="second">
+        <div class="third">
+            <div class="pa h100 column s-width-11" style="background: #afafaf;"></div>
+            <div class="column s-width-5 pr">
+                text
+            </div>
+            <div class="column s-width-5 s-push-11 pr">
+                text
+            </div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+```
