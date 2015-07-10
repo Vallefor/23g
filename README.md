@@ -1,6 +1,27 @@
 # Сетка 23g
 
-Смысл в том, что все доступное поле делится на 23 колонки.
+## Установка через composer
+
+И сетка и набор микро-классов не включены в список composer репозиториев, по этому придется их подключить вручную:
+```json
+{
+	"repositories": [
+		{
+			"type": "git",
+			"url": "https://github.com/Vallefor/23g.git"
+		},
+		{
+			"type": "git",
+			"url": "https://github.com/Vallefor/css-framework.git"
+		}
+
+	],
+    "require": {
+		"upriver/23g":				"2.0.*",
+		"upriver/css-framework":	"1.0.*"
+    }
+}
+```
 
 ## Подключение CSS для EVA CMS:
 
