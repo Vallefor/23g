@@ -1,0 +1,27 @@
+$g23-s: 768px;
+$g23-m: 1024px;
+//$g23-h: 1024px;
+
+@mixin respond-only-to($media) {
+  @if $media == s {
+    @media only screen and (max-width: $g23-s - 1) { @content; }
+  }
+  @else if $media == m {
+    @media only screen and (min-width: $g23-s) and (max-width: $g23-m - 1) { @content; }
+  }
+  @else if $media == h {
+    @media only screen and (min-width: $g23-m) { @content; }
+  }
+}
+
+@mixin respond-to($media) {
+  @if $media == s {
+    @content;
+  }
+  @else if $media == m {
+    @media only screen and (min-width: $g23-s) { @content; }
+  }
+  @else if $media == h {
+    @media only screen and (min-width: $g23-m) { @content; }
+  }
+}

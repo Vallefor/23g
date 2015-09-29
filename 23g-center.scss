@@ -1,0 +1,28 @@
+@import "scss/mixins";
+
+@import "general/grid";
+
+@import "center/s-grid-center";
+@import "general/s-add";
+
+@media only screen and (min-width: $g23-s) {
+	@import "center/m-grid-center";
+	@import "general/m-add";
+}
+
+@media only screen and (min-width: $g23-m) {
+	@import "center/h-grid-center";
+	@import "general/h-add";
+}
+
+@media only screen and (max-width: $g23-s - 1) {
+	@import "general/invert-s-grid-center";
+}
+
+@media only screen and (min-width: $g23-s) and (max-width: $g23-m - 1) {
+	@import "general/invert-m-grid-center";
+}
+
+@media only screen and (min-width: $g23-m) {
+	@import "general/invert-h-grid-center";
+}
