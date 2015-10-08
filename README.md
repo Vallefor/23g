@@ -26,6 +26,8 @@
 ## Подключение CSS для EVA CMS:
 
 ```php
+	<link type="text/css" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/center/grid.css")?>" rel="stylesheet" />
+
     <link type="text/css" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/center/s-grid-center.css")?>" rel="stylesheet" />
     <link type="text/css" media="screen and (min-width: 768px)" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/center/m-grid-center.css")?>"  rel="stylesheet" />
     <link type="text/css" media="screen and (min-width: 1024px)" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/center/h-grid-center.css")?>"  rel="stylesheet" />
