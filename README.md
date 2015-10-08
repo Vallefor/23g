@@ -38,6 +38,13 @@
     <link type="text/css" media="screen and (max-width: 1023px) and (min-width: 768px)" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/general/invert-m-grid-center.css")?>"  rel="stylesheet" />
     <link type="text/css" media="screen and (min-width: 1024px)" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/general/invert-h-grid-center.css")?>"  rel="stylesheet" />
 ```
+
+или
+
+```php
+	<link type="text/css" href="<?=evaLink::getEva()->addModTimeToPath("/vendor/upriver/23g/23g-center.css");?>" rel="stylesheet" />
+```
+
 ## Подключение CSS в обычном режиме
 
 ```html
@@ -53,7 +60,10 @@
     <link type="text/css" media="screen and (max-width: 1023px) and (min-width: 768px)" href="/vendor/upriver/23g/general/invert-m-grid-center.css"  rel="stylesheet" />
     <link type="text/css" media="screen and (min-width: 1024px)" href="/vendor/upriver/23g/general/invert-h-grid-center.css"  rel="stylesheet" />
 ```
-
+или
+```html
+	<link type="text/css" href="/vendor/upriver/23g/23g-center.css" rel="stylesheet" />
+```
 
 ## Инициализация
 
