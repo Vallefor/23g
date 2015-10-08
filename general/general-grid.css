@@ -1,0 +1,33 @@
+.fullWrap {
+  max-width: 1300px;
+  background: #ffffff;
+  /*min-width: 1000px;*/ }
+
+.page-wrap, .second {
+  width: 4%;
+  /*left: -2.15%;*/
+  position: relative; }
+
+.page, .third {
+  width: 200%;
+  margin-right: -100%;
+  position: relative; }
+
+.layer {
+  float: left;
+  width: 100%;
+  margin-right: -100%; }
+
+.layer.one {
+  z-index: 1; }
+
+.layer.two {
+  z-index: 2; }
+
+.layer.three {
+  z-index: 3; }
+
+.column {
+  float: left; }
+
+/*# sourceMappingURL=general-grid.css.map */
