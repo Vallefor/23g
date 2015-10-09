@@ -76,3 +76,71 @@
 .h-mbottom15 { margin-bottom:15px; }
 .h-mbottom20 { margin-bottom:20px; }
 .h-mbottom30 { margin-bottom:30px; }
+
+/* position */
+.h-pa { position: absolute; }
+.h-pr { position: relative; }
+.h-pf { position: fixed; }
+
+/* position */
+.h-pa { position: absolute; }
+.h-pr { position: relative; }
+.h-pf { position: fixed; }
+
+/* cb */
+.s-cb { clear: none; }
+.m-cb { clear: none; }
+.h-cb { clear: both; }
+
+.h-dn { display: none; }
+.h-db { display: block; }
+
+/* font */
+.h-fs10 { font-size: 10px; line-height: 1.2em; }
+.h-fs11 { font-size: 11px; line-height: 1.2em; }
+.h-fs12 { font-size: 12px; line-height: 1.4em; }
+.h-fs13 { font-size: 13px; line-height: 1.2em; }
+.h-fs14 { font-size: 14px; line-height: 1.2em; }
+.h-fs15 { font-size: 15px; line-height: 1.2em; }
+.h-fs16 { font-size: 16px; line-height: 1.2em; }
+.h-fs17 { font-size: 17px; line-height: 1.2em; }
+.h-fs18 { font-size: 18px; line-height: 1.2em; }
+.h-fs19 { font-size: 19px; line-height: 1.2em; }
+.h-fs20 { font-size: 20px; line-height: 1.2em; }
+.h-fs21 { font-size: 21px; line-height: 1.2em; }
+.h-fs22 { font-size: 22px; line-height: 1.2em; }
+.h-fs23 { font-size: 23px; line-height: 1.2em; }
+.h-fs24 { font-size: 24px; line-height: 1.2em; }
+.h-fs26 { font-size: 24px; line-height: 1.2em; }
+.h-fs30 { font-size: 30px; line-height: 1.2em; }
+.h-fs35 { font-size: 35px; line-height: 1.2em; }
+.h-fs40 { font-size: 40px; line-height: 1.2em; }
+.h-fs45 { font-size: 45px; line-height: 1.2em; }
+.h-fs50 { font-size: 50px; line-height: 1.2em; }
+.h-fs55 { font-size: 55px; line-height: 1.2em; }
+.h-fs60 { font-size: 60px; line-height: 1.2em; }
+.h-fs65 { font-size: 65px; line-height: 1.2em; }
+
+
+/* clear */
+.h-clear-marg-i { margin:0 !important; }
+.h-clear-mright-i { margin-right:0 !important; }
+.h-clear-mtop-i { margin-top:0 !important; }
+.h-clear-mleft-i { margin-left:0 !important; }
+.h-clear-mbottom-i { margin-bottom:0 !important; }
+
+.h-clear-padd-i { padding:0 !important; }
+.h-clear-pright-i { padding-right:0 !important; }
+.h-clear-ptop-i { padding-top:0 !important; }
+.h-clear-pleft-i { padding-left:0 !important; }
+.h-clear-pbottom-i { padding-bottom:0 !important; }
+
+/* text align */
+.h-tal { text-align: left; }
+.h-tar { text-align: right; }
+.h-tac { text-align: center; }
+
+/* float */
+.h-fl { float: left; }
+.h-fr { float: right; }
+.h-fn { float: none; }

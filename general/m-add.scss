@@ -76,3 +76,72 @@
 .m-mbottom15 { margin-bottom:15px; }
 .m-mbottom20 { margin-bottom:20px; }
 .m-mbottom30 { margin-bottom:30px; }
+
+
+/* position */
+.m-pa { position: absolute; }
+.m-pr { position: relative; }
+.m-pf { position: fixed; }
+
+/* position */
+.m-pa { position: absolute; }
+.m-pr { position: relative; }
+.m-pf { position: fixed; }
+
+/* cb */
+.s-cb { clear: none; }
+.m-cb { clear: none; }
+.m-cb { clear: both; }
+
+.m-dn { display: none; }
+.m-db { display: block; }
+
+/* font */
+.m-fs10 { font-size: 10px; line-height: 1.2em; }
+.m-fs11 { font-size: 11px; line-height: 1.2em; }
+.m-fs12 { font-size: 12px; line-height: 1.4em; }
+.m-fs13 { font-size: 13px; line-height: 1.2em; }
+.m-fs14 { font-size: 14px; line-height: 1.2em; }
+.m-fs15 { font-size: 15px; line-height: 1.2em; }
+.m-fs16 { font-size: 16px; line-height: 1.2em; }
+.m-fs17 { font-size: 17px; line-height: 1.2em; }
+.m-fs18 { font-size: 18px; line-height: 1.2em; }
+.m-fs19 { font-size: 19px; line-height: 1.2em; }
+.m-fs20 { font-size: 20px; line-height: 1.2em; }
+.m-fs21 { font-size: 21px; line-height: 1.2em; }
+.m-fs22 { font-size: 22px; line-height: 1.2em; }
+.m-fs23 { font-size: 23px; line-height: 1.2em; }
+.m-fs24 { font-size: 24px; line-height: 1.2em; }
+.m-fs26 { font-size: 24px; line-height: 1.2em; }
+.m-fs30 { font-size: 30px; line-height: 1.2em; }
+.m-fs35 { font-size: 35px; line-height: 1.2em; }
+.m-fs40 { font-size: 40px; line-height: 1.2em; }
+.m-fs45 { font-size: 45px; line-height: 1.2em; }
+.m-fs50 { font-size: 50px; line-height: 1.2em; }
+.m-fs55 { font-size: 55px; line-height: 1.2em; }
+.m-fs60 { font-size: 60px; line-height: 1.2em; }
+.m-fs65 { font-size: 65px; line-height: 1.2em; }
+
+
+/* clear */
+.m-clear-marg-i { margin:0 !important; }
+.m-clear-mright-i { margin-right:0 !important; }
+.m-clear-mtop-i { margin-top:0 !important; }
+.m-clear-mleft-i { margin-left:0 !important; }
+.m-clear-mbottom-i { margin-bottom:0 !important; }
+
+.m-clear-padd-i { padding:0 !important; }
+.m-clear-pright-i { padding-right:0 !important; }
+.m-clear-ptop-i { padding-top:0 !important; }
+.m-clear-pleft-i { padding-left:0 !important; }
+.m-clear-pbottom-i { padding-bottom:0 !important; }
+
+/* text align */
+.m-tal { text-align: left; }
+.m-tar { text-align: right; }
+.m-tac { text-align: center; }
+
+/* float */
+.m-fl { float: left; }
+.m-fr { float: right; }
+.m-fn { float: none; }
