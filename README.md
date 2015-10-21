@@ -213,6 +213,9 @@ clear:both; - сработает только при разрешении экр
             <div class="column"></div>
             <div class="column"></div>
             <div class="column"></div>
+            <div class="column"></div>
+			<div class="column"></div>
+			<div class="column"></div>
             <div class="cb"></div>
         </div>
     </div>
