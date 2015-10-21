@@ -206,6 +206,19 @@ clear:both; - сработает только при разрешении экр
 </div>
 ```
 
+```html
+<div class="first">
+    <div class="second">
+        <div class="third h-3-in-row m-2-in-row s-1-in-row">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="cb"></div>
+        </div>
+    </div>
+</div>
+```
+
 ## Фон на несколько колонок
 ```html
 <div class="first">
