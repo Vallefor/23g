@@ -31,6 +31,9 @@
 .column {
   float: left; }
 
+.column {
+  margin-left: 50%; }
+
 /** ширина **/
 .s-width-1 {
   width: 50%;
