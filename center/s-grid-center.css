@@ -2343,4 +2343,28 @@
 .s-3-in-row .column:nth-child(3n+1) {
   clear: both !important; }
 
+/** 4 in row **/
+.s-4-in-row .column {
+  width: 250%;
+  margin-right: -1400%; }
+
+.s-4-in-row .column:nts-child(4n-3) {
+  margin-left: -550%;
+  clear: none !important; }
+
+.s-4-in-row .column:nts-child(4n-2) {
+  margin-left: -250%;
+  clear: none !important; }
+
+.s-4-in-row .column:nts-child(4n-1) {
+  margin-left: 50%;
+  clear: none !important; }
+
+.s-4-in-row .column:nts-child(4n) {
+  margin-left: 350%;
+  clear: none !important; }
+
+.s-4-in-row .column:nts-child(4n+1) {
+  clear: both !important; }
+
 /*# sourceMappingURL=s-grid-center.css.map */
