@@ -239,3 +239,30 @@ clear:both; - сработает только при разрешении экр
     </div>
 </div>
 ```
+
+# Колонки встык
+Для этого нужно добавить любому родительскому элементу класс [s,m,h]-grid-to-[2-5], например
+* s-grid-to-2 - сделает 2 одинаковые колоки, шириной по 50% (начиная с размера s)
+* m-grid-to-4 - сделает 4 одинаковые колоки, шириной по 25% (начиная с размера m)
+
+```html
+<div class="first">
+    <div class="second">
+        <div class="third s-grid-to-2 m-grid-to-4">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+    </div>
+</div>
+```
+
+Так же, допустимо делать такие колонки, без инициализации сетки, но в этом случае, класс column, нужно заменить на fullColumn
+
+```html
+<div class="s-grid-to-2 m-grid-to-4">
+    <div class="fullColumn"></div>
+    <div class="fullColumn"></div>
+    <div class="fullColumn"></div>
+</div>
+```
